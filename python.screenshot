@@ -1,0 +1,6 @@
+#program
+import pyautogui
+import time
+time.sleep(5)
+screenshot=pyautogui.screenshot()
+screenshot.save("screen.png")
